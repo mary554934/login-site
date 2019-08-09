@@ -1,0 +1,8 @@
+*.pyc
+*~
+__pychach__
+logenv
+db.sqlite3
+/static
+.DS_Store
+.idea
