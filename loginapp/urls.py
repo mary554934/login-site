@@ -2,5 +2,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.register, name='register'),
+    url(r'^logout/$', logout, {'template_name': 'index.html'}, name='logout')
 ]
